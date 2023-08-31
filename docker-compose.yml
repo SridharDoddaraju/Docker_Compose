@@ -1,0 +1,12 @@
+version: '3'
+services:
+  my-nginx-image:
+    image: my-nginx-image
+    ports:
+      - "9090:80"  # Map host port 9090 to container port 80
+
+  my-nginxe:
+    image: my-nginxe
+    ports:
+      - "8080:80"    # Map host port 8080 to container port 80
+
